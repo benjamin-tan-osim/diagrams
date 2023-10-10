@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T07:10:15.807Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="fFlgHqxaCVAkAVZdO1JX" version="22.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-10T08:09:35.717Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="OiUAy05nY14kHDh4SzzR" version="22.0.4" type="github" pages="3">
   <diagram name="old workflow" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1062" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -253,11 +253,14 @@
         <mxCell id="srluV6SG-kPFELdoZhSY-0" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-1">
           <mxGeometry x="562" y="280" width="10.4" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jT2cDUov8f_247h8Pfnu-1" value="On filename collision:&lt;br&gt;- replace&lt;br&gt;- ignore&lt;br&gt;- copy" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-1">
-          <mxGeometry x="530" y="130" width="120" height="70" as="geometry" />
+        <mxCell id="jT2cDUov8f_247h8Pfnu-1" value="On filename collision:&lt;br&gt;- replace file&lt;br&gt;- ignore file&lt;br&gt;- create copy" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-1">
+          <mxGeometry x="540" y="130" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vQE837kyrEj6VwA7y01o-0" value="New Workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-1">
           <mxGeometry x="366" width="118" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eqdG12BiHtgT8czmCZSm-0" value="based on xx_assets.json and xx_assets.dart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-1">
+          <mxGeometry x="540" y="40" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
