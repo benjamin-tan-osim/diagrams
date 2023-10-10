@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T06:19:27.597Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="hcm-_jbB--5ND3HOt7ra" version="22.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-10T07:10:15.807Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="fFlgHqxaCVAkAVZdO1JX" version="22.0.4" type="github" pages="3">
   <diagram name="old workflow" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1062" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,13 +13,13 @@
         <mxCell id="GvjwHp_Fau4F6InbgkKO-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-17">
           <mxGeometry width="170" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="GvjwHp_Fau4F6InbgkKO-3" value="xx_assets.json" style="swimlane;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-17">
+        <mxCell id="GvjwHp_Fau4F6InbgkKO-3" value="xx_assets.json" style="swimlane;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-17">
           <mxGeometry x="15" y="85" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GvjwHp_Fau4F6InbgkKO-4" value="&quot;files&quot;: [&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;&quot;path/to/file1.mp4&quot;,&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;&quot;path/to/file2.dat&quot;&lt;br style=&quot;font-size: 10px;&quot;&gt;]" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-3">
           <mxGeometry y="30" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GvjwHp_Fau4F6InbgkKO-7" value="&lt;b style=&quot;font-size: 10px;&quot;&gt;downloadable_assets/&lt;/b&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file1.mp4&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file2.dat" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.555555555555486;align=left;fontSize=10;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-17">
+        <mxCell id="GvjwHp_Fau4F6InbgkKO-7" value="&lt;b style=&quot;font-size: 10px;&quot;&gt;downloadable_assets/&lt;/b&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file1.mp4&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file2.dat" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.555555555555486;align=left;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-17">
           <mxGeometry x="15" y="10" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GvjwHp_Fau4F6InbgkKO-19" value="" style="group" vertex="1" connectable="0" parent="GvjwHp_Fau4F6InbgkKO-24">
@@ -28,10 +28,10 @@
         <mxCell id="GvjwHp_Fau4F6InbgkKO-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-19">
           <mxGeometry width="170" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="GvjwHp_Fau4F6InbgkKO-8" value="&lt;b style=&quot;font-size: 10px;&quot;&gt;.s3bucket/&lt;/b&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file1_01.mp4&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file2_01.dat" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.555555555555486;align=left;fontSize=10;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-19">
+        <mxCell id="GvjwHp_Fau4F6InbgkKO-8" value="&lt;b style=&quot;font-size: 10px;&quot;&gt;.s3bucket/&lt;/b&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file1_01.mp4&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file2_01.dat" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.555555555555486;align=left;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-19">
           <mxGeometry x="10" y="10" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GvjwHp_Fau4F6InbgkKO-14" value="xx_assets.dart" style="swimlane;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-19">
+        <mxCell id="GvjwHp_Fau4F6InbgkKO-14" value="xx_assets.dart" style="swimlane;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-19">
           <mxGeometry x="10" y="90" width="150" height="170" as="geometry" />
         </mxCell>
         <mxCell id="GvjwHp_Fau4F6InbgkKO-15" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 8px;&quot;&gt;&lt;pre style=&quot;font-size: 8px;&quot;&gt;late final &lt;span style=&quot;color: rgb(102, 14, 122); font-weight: bold; font-size: 8px;&quot;&gt;file1 &lt;/span&gt;= &lt;span style=&quot;color: rgb(33, 150, 243); font-size: 8px;&quot;&gt;AssetFile&lt;/span&gt;(&lt;br style=&quot;font-size: 8px;&quot;&gt;  parent: &lt;span style=&quot;color: rgb(0, 0, 128); font-weight: bold; font-size: 8px;&quot;&gt;this&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;  name:&lt;br style=&quot;font-size: 8px;&quot;&gt;      &lt;span style=&quot;color: rgb(0, 128, 0); font-weight: bold; font-size: 8px;&quot;&gt;&#39;path/to/file1.mp4&#39;&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;  checksum: &lt;span style=&quot;color: rgb(0, 128, 0); font-weight: bold; font-size: 8px;&quot;&gt;&#39;01&#39;&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;  size: &lt;span style=&quot;color: rgb(0, 0, 255); font-size: 8px;&quot;&gt;12345678&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;);&lt;/pre&gt;&lt;pre style=&quot;font-size: 8px;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 8px;&quot;&gt;&lt;pre style=&quot;font-size: 8px;&quot;&gt;late final &lt;span style=&quot;color: rgb(102, 14, 122); font-weight: bold; font-size: 8px;&quot;&gt;file2 &lt;/span&gt;= &lt;span style=&quot;color: rgb(33, 150, 243); font-size: 8px;&quot;&gt;AssetFile&lt;/span&gt;(&lt;br style=&quot;font-size: 8px;&quot;&gt;  parent: &lt;span style=&quot;color: rgb(0, 0, 128); font-weight: bold; font-size: 8px;&quot;&gt;this&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;  name:&lt;br style=&quot;font-size: 8px;&quot;&gt;      &lt;span style=&quot;color: rgb(0, 128, 0); font-weight: bold; font-size: 8px;&quot;&gt;&#39;path/to/file2.dat&#39;&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;  checksum: &lt;span style=&quot;color: rgb(0, 128, 0); font-weight: bold; font-size: 8px;&quot;&gt;&#39;01&#39;&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;  size: &lt;span style=&quot;color: rgb(0, 0, 255); font-size: 8px;&quot;&gt;1234&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;);&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-19">
@@ -58,13 +58,13 @@
         <mxCell id="GvjwHp_Fau4F6InbgkKO-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-26">
           <mxGeometry width="170" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="GvjwHp_Fau4F6InbgkKO-28" value="xx_assets.json" style="swimlane;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-26">
+        <mxCell id="GvjwHp_Fau4F6InbgkKO-28" value="xx_assets.json" style="swimlane;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-26">
           <mxGeometry x="15" y="85" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GvjwHp_Fau4F6InbgkKO-29" value="&quot;files&quot;: [&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;&quot;path/to/file1.mp4&quot;,&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;&quot;path/to/file2.dat&quot;&lt;br style=&quot;font-size: 10px;&quot;&gt;]" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-28">
           <mxGeometry y="30" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GvjwHp_Fau4F6InbgkKO-30" value="&lt;b style=&quot;font-size: 10px;&quot;&gt;downloadable_assets/&lt;/b&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file1.mp4&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file2.dat" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.555555555555486;align=left;fontSize=10;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-26">
+        <mxCell id="GvjwHp_Fau4F6InbgkKO-30" value="&lt;b style=&quot;font-size: 10px;&quot;&gt;downloadable_assets/&lt;/b&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file1.mp4&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file2.dat" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.555555555555486;align=left;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-26">
           <mxGeometry x="15" y="10" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GvjwHp_Fau4F6InbgkKO-31" value="" style="group" vertex="1" connectable="0" parent="GvjwHp_Fau4F6InbgkKO-25">
@@ -73,10 +73,10 @@
         <mxCell id="GvjwHp_Fau4F6InbgkKO-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-31">
           <mxGeometry width="170" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="GvjwHp_Fau4F6InbgkKO-33" value="&lt;b style=&quot;font-size: 10px;&quot;&gt;assets_bucket/&lt;/b&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file1_01.mp4&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file2_01.dat" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.555555555555486;align=left;fontSize=10;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-31">
+        <mxCell id="GvjwHp_Fau4F6InbgkKO-33" value="&lt;b style=&quot;font-size: 10px;&quot;&gt;assets_bucket/&lt;/b&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file1_01.mp4&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;path/to/file2_01.dat" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.555555555555486;align=left;fontSize=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-31">
           <mxGeometry x="10" y="10" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GvjwHp_Fau4F6InbgkKO-34" value="xx_assets.dart" style="swimlane;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-31">
+        <mxCell id="GvjwHp_Fau4F6InbgkKO-34" value="xx_assets.dart" style="swimlane;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-31">
           <mxGeometry x="10" y="90" width="150" height="170" as="geometry" />
         </mxCell>
         <mxCell id="GvjwHp_Fau4F6InbgkKO-35" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 8px;&quot;&gt;&lt;pre style=&quot;font-size: 8px;&quot;&gt;late final &lt;span style=&quot;color: rgb(102, 14, 122); font-weight: bold; font-size: 8px;&quot;&gt;file1 &lt;/span&gt;= &lt;span style=&quot;color: rgb(33, 150, 243); font-size: 8px;&quot;&gt;AssetFile&lt;/span&gt;(&lt;br style=&quot;font-size: 8px;&quot;&gt;  parent: &lt;span style=&quot;color: rgb(0, 0, 128); font-weight: bold; font-size: 8px;&quot;&gt;this&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;  name:&lt;br style=&quot;font-size: 8px;&quot;&gt;      &lt;span style=&quot;color: rgb(0, 128, 0); font-weight: bold; font-size: 8px;&quot;&gt;&#39;path/to/file1.mp4&#39;&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;  checksum: &lt;span style=&quot;color: rgb(0, 128, 0); font-weight: bold; font-size: 8px;&quot;&gt;&#39;01&#39;&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;  size: &lt;span style=&quot;color: rgb(0, 0, 255); font-size: 8px;&quot;&gt;12345678&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;);&lt;/pre&gt;&lt;pre style=&quot;font-size: 8px;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 8px;&quot;&gt;&lt;pre style=&quot;font-size: 8px;&quot;&gt;late final &lt;span style=&quot;color: rgb(102, 14, 122); font-weight: bold; font-size: 8px;&quot;&gt;file2 &lt;/span&gt;= &lt;span style=&quot;color: rgb(33, 150, 243); font-size: 8px;&quot;&gt;AssetFile&lt;/span&gt;(&lt;br style=&quot;font-size: 8px;&quot;&gt;  parent: &lt;span style=&quot;color: rgb(0, 0, 128); font-weight: bold; font-size: 8px;&quot;&gt;this&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;  name:&lt;br style=&quot;font-size: 8px;&quot;&gt;      &lt;span style=&quot;color: rgb(0, 128, 0); font-weight: bold; font-size: 8px;&quot;&gt;&#39;path/to/file2.dat&#39;&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;  checksum: &lt;span style=&quot;color: rgb(0, 128, 0); font-weight: bold; font-size: 8px;&quot;&gt;&#39;01&#39;&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;  size: &lt;span style=&quot;color: rgb(0, 0, 255); font-size: 8px;&quot;&gt;1234&lt;/span&gt;,&lt;br style=&quot;font-size: 8px;&quot;&gt;);&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-31">
@@ -94,6 +94,9 @@
         <mxCell id="GvjwHp_Fau4F6InbgkKO-38" value="&lt;b&gt;GitHub repo: OSIMDEV/oneapp&lt;/b&gt;&lt;br&gt;oneapp_upload_assets_staging.yml&lt;br&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;oneapp_upload_assets_prod.yml&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-37">
           <mxGeometry width="230" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="oSxbcZY3i1cRjioRLaAC-3" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="GvjwHp_Fau4F6InbgkKO-25">
+          <mxGeometry x="507" y="180" width="10.4" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="GvjwHp_Fau4F6InbgkKO-49" value="&lt;b style=&quot;font-size: 10px;&quot;&gt;assets_bucket/&lt;/b&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file1_00.mp4&lt;br&gt;&amp;nbsp; &amp;nbsp; path/to/file1_01.mp4&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file2_01.dat" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.555555555555486;align=left;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="668" y="470" width="150" height="175" as="geometry" />
         </mxCell>
@@ -109,9 +112,6 @@
             <mxPoint x="518" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GvjwHp_Fau4F6InbgkKO-53" value="secrets.REPO_TOKEN" style="shape=display;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
-          <mxGeometry x="548" y="570" width="80" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="GvjwHp_Fau4F6InbgkKO-54" value="Backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="713" y="500" width="60" height="30" as="geometry" />
         </mxCell>
@@ -120,6 +120,12 @@
             <mxPoint x="468" y="320" as="sourcePoint" />
             <mxPoint x="518" y="270" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oSxbcZY3i1cRjioRLaAC-1" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;secrets.REPO_TOKEN&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVX9EJPbAQIMSkkdYgFv-1" value="Old Workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="372" width="107" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -213,7 +219,7 @@
         <mxCell id="vlKhjYDyNnbhRIcdCx-i-41" value="&lt;b&gt;GitHub repo: OSIMDEV/oneapp&lt;/b&gt;&lt;br&gt;&lt;strike&gt;oneapp_upload_assets_staging.yml&lt;br&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;oneapp_upload_assets_prod.yml&lt;/span&gt;&lt;/strike&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-40">
           <mxGeometry width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vlKhjYDyNnbhRIcdCx-i-42" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;downloadable_assets/&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; path/to/file1.mp4&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file2.dat&lt;b style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;br&gt;assets_bucket/ (.s3bucket/ ?)&lt;/b&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file1_00.mp4&lt;br&gt;&amp;nbsp; &amp;nbsp; path/to/file1_01.mp4&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file2_01.dat" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.555555555555486;align=left;fontSize=10;" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-1">
+        <mxCell id="vlKhjYDyNnbhRIcdCx-i-42" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;downloadable_assets/&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&#x9;&amp;nbsp; &amp;nbsp; path/to/file1.mp4&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file2.dat&lt;b style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;br&gt;assets_bucket/ (.s3bucket/ ?)&lt;/b&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file1_00.mp4&lt;br&gt;&amp;nbsp; &amp;nbsp; path/to/file1_01.mp4&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file2_01.dat" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.555555555555486;align=left;fontSize=10;" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-1">
           <mxGeometry x="667.34" y="40" width="150" height="300" as="geometry" />
         </mxCell>
         <mxCell id="vlKhjYDyNnbhRIcdCx-i-43" value="git push" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vlKhjYDyNnbhRIcdCx-i-1" source="vlKhjYDyNnbhRIcdCx-i-26" target="vlKhjYDyNnbhRIcdCx-i-40">
@@ -221,9 +227,6 @@
             <mxPoint x="147" y="340" as="sourcePoint" />
             <mxPoint x="197" y="390" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="vlKhjYDyNnbhRIcdCx-i-45" value="Auth" style="shape=display;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-1">
-          <mxGeometry x="560" y="280" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vlKhjYDyNnbhRIcdCx-i-46" value="Backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-1">
           <mxGeometry x="712.34" y="80" width="60" height="30" as="geometry" />
@@ -246,6 +249,15 @@
             <mxPoint x="517.3399999999999" y="15" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="srluV6SG-kPFELdoZhSY-0" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-1">
+          <mxGeometry x="562" y="280" width="10.4" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jT2cDUov8f_247h8Pfnu-1" value="On filename collision:&lt;br&gt;- replace&lt;br&gt;- ignore&lt;br&gt;- copy" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-1">
+          <mxGeometry x="530" y="130" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vQE837kyrEj6VwA7y01o-0" value="New Workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-1">
+          <mxGeometry x="366" width="118" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
