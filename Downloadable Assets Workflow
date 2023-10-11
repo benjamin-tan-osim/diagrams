@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T01:37:18.614Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="S97ZYh0K0DaCcfDAPwtq" version="22.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-11T06:03:06.486Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="j6QxgfdgC8wkpwBU1xC8" version="22.0.4" type="github" pages="3">
   <diagram name="old workflow" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="819" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,7 +131,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="proposed new workflow" id="oW5ulI5E5RsIYtloN1x-">
-    <mxGraphModel dx="1147" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="vlKhjYDyNnbhRIcdCx-i-0" />
         <mxCell id="vlKhjYDyNnbhRIcdCx-i-1" parent="vlKhjYDyNnbhRIcdCx-i-0" />
@@ -180,8 +180,17 @@
         <mxCell id="vlKhjYDyNnbhRIcdCx-i-27" value="&lt;b&gt;Local repo&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vlKhjYDyNnbhRIcdCx-i-26" vertex="1">
           <mxGeometry width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="6Dw4k4emGPF64mk0oE9l-2" value="xx_assets_metadata_.json" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-26">
+          <mxGeometry x="165.00000000000006" y="210" width="147.66" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6Dw4k4emGPF64mk0oE9l-0" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="vlKhjYDyNnbhRIcdCx-i-14" source="vlKhjYDyNnbhRIcdCx-i-22" target="vlKhjYDyNnbhRIcdCx-i-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="398" y="240" as="sourcePoint" />
+            <mxPoint x="448" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vlKhjYDyNnbhRIcdCx-i-28" value="" style="group" parent="vlKhjYDyNnbhRIcdCx-i-1" vertex="1" connectable="0">
-          <mxGeometry x="32" y="400" width="530" height="300" as="geometry" />
+          <mxGeometry x="32" y="400" width="780" height="300" as="geometry" />
         </mxCell>
         <mxCell id="vlKhjYDyNnbhRIcdCx-i-29" value="" style="group" parent="vlKhjYDyNnbhRIcdCx-i-28" vertex="1" connectable="0">
           <mxGeometry x="10" y="60" width="170" height="200" as="geometry" />
@@ -214,28 +223,19 @@
           <mxGeometry x="10" y="100" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="vlKhjYDyNnbhRIcdCx-i-40" value="" style="swimlane;startSize=0;" parent="vlKhjYDyNnbhRIcdCx-i-28" vertex="1">
-          <mxGeometry width="490" height="300" as="geometry" />
+          <mxGeometry width="780" height="300" as="geometry" />
         </mxCell>
         <mxCell id="vlKhjYDyNnbhRIcdCx-i-41" value="&lt;b&gt;GitHub repo: OSIMDEV/oneapp&lt;/b&gt;&lt;br&gt;&lt;strike&gt;oneapp_upload_assets_staging.yml&lt;br&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;oneapp_upload_assets_prod.yml&lt;/span&gt;&lt;/strike&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vlKhjYDyNnbhRIcdCx-i-40" vertex="1">
           <mxGeometry width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vlKhjYDyNnbhRIcdCx-i-42" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;downloadable_assets/&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&#x9;&amp;nbsp; &amp;nbsp; path/to/file1.mp4&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file2.dat&lt;b style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;br&gt;assets_bucket/ (.s3bucket/ ?)&lt;/b&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file1_00.mp4&lt;br&gt;&amp;nbsp; &amp;nbsp; path/to/file1_01.mp4&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file2_01.dat" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.555555555555486;align=left;fontSize=10;" parent="vlKhjYDyNnbhRIcdCx-i-1" vertex="1">
-          <mxGeometry x="667.34" y="40" width="150" height="300" as="geometry" />
+        <mxCell id="6Dw4k4emGPF64mk0oE9l-1" value="xx_assets_metadata.json" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-40">
+          <mxGeometry x="598" y="25" width="147.66" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vlKhjYDyNnbhRIcdCx-i-43" value="git push" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="vlKhjYDyNnbhRIcdCx-i-1" source="vlKhjYDyNnbhRIcdCx-i-26" target="vlKhjYDyNnbhRIcdCx-i-40" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="147" y="340" as="sourcePoint" />
-            <mxPoint x="197" y="390" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="vlKhjYDyNnbhRIcdCx-i-42" value="&lt;span style=&quot;background-color: rgb(204, 255, 230);&quot;&gt;&lt;strike&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;downloadable_assets/&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&#x9;&amp;nbsp; &amp;nbsp; path/to/file1.mp4&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file2.dat&lt;/strike&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;br&gt;assets_bucket/ (.s3bucket/ ?)&lt;/b&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file1_00.mp4&lt;br&gt;&amp;nbsp; &amp;nbsp; path/to/file1_01.mp4&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;path/to/file2_01.dat&lt;br&gt;&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.555555555555486;align=left;fontSize=10;" parent="vlKhjYDyNnbhRIcdCx-i-1" vertex="1">
+          <mxGeometry x="667.34" y="40" width="150" height="300" as="geometry" />
         </mxCell>
         <mxCell id="vlKhjYDyNnbhRIcdCx-i-46" value="Backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="vlKhjYDyNnbhRIcdCx-i-1" vertex="1">
           <mxGeometry x="712.34" y="80" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vlKhjYDyNnbhRIcdCx-i-47" value="git fetch" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="vlKhjYDyNnbhRIcdCx-i-1" source="vlKhjYDyNnbhRIcdCx-i-40" target="vlKhjYDyNnbhRIcdCx-i-26" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="467" y="330" as="sourcePoint" />
-            <mxPoint x="517" y="280" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="oYgOf8XAnOBbMc8eVMoj-0" value="GET" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=75.52777777777774;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="vlKhjYDyNnbhRIcdCx-i-1" source="vlKhjYDyNnbhRIcdCx-i-42" target="vlKhjYDyNnbhRIcdCx-i-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -250,14 +250,20 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jT2cDUov8f_247h8Pfnu-1" value="if diff:&lt;br&gt;- replace file&lt;br&gt;- ignore file&lt;br&gt;- create copy" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="vlKhjYDyNnbhRIcdCx-i-1" vertex="1">
-          <mxGeometry x="540" y="30" width="120" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="vQE837kyrEj6VwA7y01o-0" value="New Workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vlKhjYDyNnbhRIcdCx-i-1" vertex="1">
           <mxGeometry x="366" width="118" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eqdG12BiHtgT8czmCZSm-0" value="based on xx_assets.json and xx_assets.dart" style="rounded=0;whiteSpace=wrap;html=1;" parent="vlKhjYDyNnbhRIcdCx-i-1" vertex="1">
           <mxGeometry x="530" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Dw4k4emGPF64mk0oE9l-4" value="git push / git fetch" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="vlKhjYDyNnbhRIcdCx-i-1" source="vlKhjYDyNnbhRIcdCx-i-41" target="vlKhjYDyNnbhRIcdCx-i-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="340" as="sourcePoint" />
+            <mxPoint x="480" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Dw4k4emGPF64mk0oE9l-5" value="How to ensure user uploads the latest files if they push to github?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="vlKhjYDyNnbhRIcdCx-i-1">
+          <mxGeometry x="190" y="710" width="480" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
